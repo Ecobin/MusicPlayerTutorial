@@ -26,12 +26,12 @@ public class MainActivity extends Activity {
     ServiceConnection connection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
-               inter = PlayerInterface.Stub.asInterface(service);
+            inter = PlayerInterface.Stub.asInterface(service);
         }
 
         @Override
         public void onServiceDisconnected(ComponentName name) {
-              inter = null;
+            inter = null;
         }
     };
 
@@ -65,8 +65,9 @@ public class MainActivity extends Activity {
             }
         });
 
+
         Intent intent = new Intent(this, MusicService.class);
-        bindService(intent,connection,BIND_AUTO_CREATE);
+        bindService(intent, connection, BIND_AUTO_CREATE);
 
 
     }
@@ -89,7 +90,6 @@ public class MainActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
-
 
 
 }

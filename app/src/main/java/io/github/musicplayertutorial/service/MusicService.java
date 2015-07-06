@@ -36,9 +36,6 @@ public class MusicService extends Service {
         public void stopMusic() throws RemoteException {
             if (player.isPlaying()) {
                 player.stop();
-                player.release();
-                player = null;
-
             }
         }
 
