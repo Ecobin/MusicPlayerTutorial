@@ -9,7 +9,7 @@ Open the Project in Android Studio and build the .apk or directly run it to your
 
 ## License
 ```
-Copyright 2015 deadlydragon00.
+Copyright 2015 Elmar Rhex Gomez.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
