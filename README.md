@@ -1,5 +1,5 @@
 # MusicPlayerTutorial
-This an Android project that demonstrates on how to build a Music Player that can play on Background using Service and AIDL.
+An Android project that demonstrates on how to build a Music Player that can play on Background using Service and AIDL.
 
 ## Installation
 Open the Project in Android Studio and build the .apk or directly run it to your android emulator.
